@@ -1,0 +1,64 @@
+#Coxinha{
+    width: 450px;
+    height: 300px;
+    margin-right: 20px;
+    border-radius: 50%;
+    text-align: end;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+.clearfix::after {
+    border: 3px solid #4CAF50;
+    padding: 5px;
+}
+
+img {
+    float: right;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+#brigadeiro{
+    width: 300;
+    height: 200;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.card{
+    float: left;
+  width: 33.33%;
+}
+.card-img-top{
+    width:250px;
+    height: 250px;
+
+}
+
+.img1{
+    width: 130px;
+    height: 130px;
+}
+
+.text1{
+    text-decoration: none;
+    color: black;
+}
+
+@font-face{
+    font-family: myFont;
+    src: url(bad.ttf);
+}
+
+.font{
+    font-family: myFont;
+    color: white;
+}
